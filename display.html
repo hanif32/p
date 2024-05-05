@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <link rel="stylesheet" type="text/css" href="styleDisplay.css">
+    <style>
+        .navigasi {
+            background-color: blue;
+        }
+        .main {
+            background-color: lightgreen;
+        }
+        .main span {
+            background-color: lightblue;
+        }
+        /*contoh inline (ukuran mengikuti ukuran variabel*/
+        a {
+            background-color: pink;
+        }
+        /*contoh inline-block (ukuran bisa kita custom)*/
+        /*a {
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }*/
+        /*h1,h2,p {
+            background-color: lightgreen;
+        }*/
+        .main {
+            widht: 600px;
+            background-color: lightgreen;
+        }
+        .main h2 {
+            background-color: pink;
+        }
+        img {
+            display:;
+        }
+        .navigasi li {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <!--fungsi tag div adalah untuk mengelompokkan setiap bagian-->
+    <!--fungsi tag span adalah mengelompokkan setiap kata-->
+    <div class="header">
+        <h1>Selamat datang di website kami</h1>
+    </div>
+
+    <div class="navigasi">
+        <h2>Daftar link</h2>
+        <!--cara membuat link secara cepat contoh(ul>li*5>a{href=#}{link $})-->
+        <ul>
+            <li><a href=""></a>link 1</li>
+            <li><a href=""></a>link 2</li>
+            <li><a href=""></a>link 3</li>
+            <li><a href=""></a>link 4</li>
+            <li><a href=""></a>link 5</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <h2>Judul Artikel</h2>
+        <h2>Judul Artikel</h2>
+    <img src="gambar/bg5.jpg" alt="gambar">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Aperiam amet beatae</span>dicta rerum fugit sapiente dolorem iure deserunt repellat. Nihil voluptates odit nulla laudantium voluptatum eligendi explicabo ab, quod natus.</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem vel ad quaerat error asperiores, nisi id quasi voluptates delectus sunt architecto ipsa, quo vitae, obcaecati natus velit! Quisquam, minus!</p>
+    </div>
+
+    <div class="copyright">
+        <p class="copyright">copyright 2015. Web Programming Unpas.</p>
+    </div>
+</body>
+</html>
